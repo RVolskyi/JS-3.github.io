@@ -1,0 +1,258 @@
+
+html {
+    font-family: "Avenir", sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+    /*******************************1280*******************************************************************/
+    /*@media (min-width: 1110px) {*/
+
+        .wrap {
+            width: 100%;
+            margin:0 auto;
+
+        }
+
+        /*******HEADER******/
+        header {
+            display: flex;
+            justify-content: center;
+            bbackground: rgba(246,249,251,1);
+            background: -moz-linear-gradient(-45deg, rgba(246,249,251,1) 0%, rgba(223,235,248,1) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(246,249,251,1)), color-stop(100%, rgba(223,235,248,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(246,249,251,1) 0%, rgba(223,235,248,1) 100%);
+            background: -o-linear-gradient(-45deg, rgba(246,249,251,1) 0%, rgba(223,235,248,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(246,249,251,1) 0%, rgba(223,235,248,1) 100%);
+            background: linear-gradient(135deg, rgba(246,249,251,1) 0%, rgba(223,235,248,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f9fb', endColorstr='#dfebf8', GradientType=1 );
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        .headerСontent {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width:1113px;
+            height: 100%;
+            margin-left: 40px;
+            margin-right:40px;
+        }
+
+        .logo {
+            display: block;
+            padding-top: 104px;
+            /*margin-left:1px;*/
+        }
+
+
+
+/*** * * * * HEADER NAV * * * ***/
+
+        .headerNav {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 95px;
+            width: 555px;
+        }
+
+        .headerNav a{
+            display: block;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 41px;
+            color: #444;
+            text-align: center;
+        }
+
+        .benefits {
+            font-family: "Avenir";
+            margin-right: 40px;
+        }
+
+        .features {
+            font-family: "Avenir";
+            margin-right: 40px;
+
+        }
+
+        .comparison {
+            font-family:"Avenir";
+            margin-right: 40px;
+        }
+        .headerNav .requestDemo {
+            display: block;
+            width: 151px;
+            background-color: #253256;
+            border-radius: 9px;
+            text-align: center;
+            font-family: "Avenir";
+            font-size: 14px;
+            color: white;
+        }
+
+/******Header-Midle-Content_1200*******/
+
+
+        .headerMiddleContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-basis: 100%;
+            margin-top: 80px;
+        }
+
+        .headerSlogan {
+            margin-top: 125px;
+            color: #253256;
+        }
+
+        .headerSloganMain{
+            font-size: 40px;
+            font-family: "Avenir";
+            line-height: 55px;
+            font-weight:bold;
+            letter-spacing: 0.21px;
+        }
+
+        .headerSloganSecond{
+            display: block;
+            margin-top: 8px;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 0.45px;
+        }
+
+        .headerPicture {
+            margin-right:-47px;
+            margin-top: 10px;
+            margin-bottom: 17px;
+        }
+
+/************Main-Section***********/
+
+
+.mainSection {
+    width:1113px;
+    height: 100%;
+    margin: 0 auto;
+
+   }
+
+main {
+    margin-top: 75px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    flex-basis: 714px;
+}
+
+.mainWhySentinel{
+    display: block;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: "Avenir";
+    font-size:30px;
+    color: #253256;
+}
+
+.mainWhytext{
+    display: block;
+    width: 712px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 14px;
+    color: #253256;
+    letter-spacing: 0.1px;
+    line-height: 23px;
+    }
+
+/************Main--Section-Browser***********/
+
+.mainBrowser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 422px;
+    margin-top: 97px;
+}
+
+.mainPictures {
+    background-color: #00E89A;
+    width: 680px;
+    height: 422px;
+}
+
+.mainLinkBlock {
+    width: 400px;
+    height:422px;
+}
+
+.mainLinkLink {
+    opacity: 0.6;
+}
+
+.mainLinkLink a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-bottom:50px;
+    }
+
+.mainLinkLink .mainLinkImg {
+    display: block;
+    padding-top:22px;
+   }
+
+
+/*********Icons in main sections**********/
+
+.mainLinkBlock .unlock .mainLinkImg{
+    display: block;
+    margin-left:4px;
+    margin-right: 17px;
+}
+
+.mainLinkBlock .cloud .mainLinkImg{
+    display: block;
+    padding-top:25px;
+    margin-left: -2px;
+    margin-right: 11px;
+}
+
+.mainLinkBlock .stopWatch .mainLinkImg{
+    display: block;
+    padding-top:27px;
+    margin-left: -2px;
+    margin-right: 13px;
+}
+
+.mainLinkBlock .server .mainLinkImg{
+    display: block;
+    padding-top:26px;
+    margin-left:1px;
+    margin-right: 15px;
+}
+/***************************************/
+
+
+.mainLinkLink .headerLinkMain {
+    font-family:Avenir;
+    font-size: 19px;
+    color: rgb(35, 43, 77);
+    margin-bottom:3px;
+}
+
+.mainLinkLink .headerLinkSecond{
+    font-family:Avenir;
+    font-size: 14px;
+    color: rgb(35, 43, 77);
+    line-height:23px;
+}
+
+.mainLinkLink:hover {
+    opacity: 1;
+}
